@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hype Specialty Coffee & Good Vibes</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Odibee+Sans&display" rel="stylesheet">
+</head>
+
+<body>
+    <header class="site-header">
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#products-contact">Order & Contact</a>
+            <a href="#our-products">Our Products</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="banner">
+            <div class="content autoShow">
+                <h1>HYPE</h1>
+                <div class="right">
+                    <h2>Specialty Coffee & Good Vibes</h2>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="grid grid-1 autoShow">
+            <h2>About Us</h2>
+            <div>
+                <p>Welcome to Hype Specialty Coffee & Good Vibes, where we craft exceptional coffee experiences with a
+                    passion for quality and community. Our cozy shop is a haven for coffee lovers, offering meticulously
+                    sourced beans and a vibrant atmosphere. Join us for a cup that warms the soul!</p>
+            </div>
+        </section>
+
+        <section id="products-contact" class="grid grid-2 autoShow">
+            <h2>Order & Contact</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Price</th>
+                        <th>Contact</th>
+                        <th>Shift</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Espresso</td>
+                        <td>$3.50</td>
+                        <td rowspan="3">Email: contact@hypecoffee.com<br>Phone: +1-555-123-4567</td>
+                        <td rowspan="3">Mon-Fri: 7 AM - 3 PM<br>Sat-Sun: 8 AM - 4 PM</td>
+                    </tr>
+                    <tr>
+                        <td>Cappuccino</td>
+                        <td>$4.50</td>
+                    </tr>
+                    <tr>
+                        <td>Cold Brew</td>
+                        <td>$5.00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="our-products" class="grid grid-3 autoBLur">
+            <h2>Our Products</h2>
+            <div>Espresso: Bold and rich, crafted from single-origin beans.</div>
+            <div>Cappuccino: Creamy foam meets robust espresso.</div>
+            <div>Cold Brew: Smooth and refreshing, perfect for any time.</div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="content grid grid-5">
+            <div>Follow us on Instagram: @hype_specialty_coffee</div>
+            <div>Address: 123 Coffee Lane, Brew City</div>
+            <div>&copy; 2025 Hype Specialty Coffee & Good Vibes</div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('scroll', function () {
+            if (window.scrollY > 50) {
+                document.body.classList.add('scrolled');
+            } else {
+                document.body.classList.remove('scrolled');
+            }
+        });
+    </script>
+</body>
+
+</html>
